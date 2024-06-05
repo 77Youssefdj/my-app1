@@ -51,7 +51,6 @@ const Skills: React.FC = () => {
             { name: 'Python', logo: python }, 
             { name: 'Java', logo: java }, 
             { name: 'C', logo: c }, 
-            { name: 'R', logo: R }
           ]} 
           isOpen={openSection === 'Programming Languages'} 
           onClick={() => toggleSection('Programming Languages')}
@@ -59,9 +58,7 @@ const Skills: React.FC = () => {
         <Section 
           title="Databases" 
           skills={[
-            { name: 'MySQL', logo: mysql }, 
-            { name: 'PostgreSQL', logo: '/postgresql.png' }, 
-            { name: 'MongoDB', logo: '/mongodb.png' }
+            { name: 'MySQL', logo: mysql }
           ]} 
           isOpen={openSection === 'Databases'} 
           onClick={() => toggleSection('Databases')}
@@ -72,7 +69,6 @@ const Skills: React.FC = () => {
             { name: 'HTML', logo: html}, 
             { name: 'CSS', logo: css}, 
             { name: 'JavaScript', logo: js }, 
-            { name: 'React', logo: '/react.png' }
           ]} 
           isOpen={openSection === 'Web Development'} 
           onClick={() => toggleSection('Web Development')}

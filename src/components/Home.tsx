@@ -15,7 +15,7 @@ const Home: React.FC = () => {
     <div className="min-h-screen flex justify-center items-center">
       <div className="flex items-center max-w-4xl mx-auto p-4">
         <div className="flex-1 text-center">
-          <h1 className="text-5xl mb-4 text-[#61dafb]">Hi, I'm Youssef</h1>
+          <h1 className="text-5xl mb-4 text-[#61dafb]">Hi, I'm Youssef / Ilyas</h1>
           <p className="text-xl mb-2"></p>
           <p className="text-lg mb-4"></p>
           <Link to="/formulaire">

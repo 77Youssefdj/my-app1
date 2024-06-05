@@ -7,9 +7,7 @@ const EducationAndExperience: React.FC = () => {
     <ol className="relative border-s border-gray-200 dark:border-gray-700">
       <li className="mb-10 ms-6">
         <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-          <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-          </svg>
+          
         </span>
         <h3 className="flex mb-1 font-semibold text-white"> Cycle ingénieur, Génie Réseaux et télécommunications.                                                                    </h3>
         <time className="flex font-normal text-white">2022-2025</time>
@@ -24,9 +22,7 @@ const EducationAndExperience: React.FC = () => {
       
       <li className="ms-6">
         <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-          <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-          </svg>
+          
         </span>
         <h3 className="flex mb-1 font-semibold text-white">Classes préparatoires scientifiques Mathématiques Physique (MP). </h3>
         <time className="flex font-normal text-white">2020-2022</time>
@@ -44,9 +40,7 @@ const EducationAndExperience: React.FC = () => {
     <ol className="relative border-s border-gray-200 dark:border-gray-700">
       <li className="mb-10 ms-6">
         <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-          <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-          </svg>
+          
         </span>
         <h3 className="flex mb-1 font-semibold text-white">Software Engineer at XYZ Corp</h3>
         <time className="flex font-normal text-white">2022-Present</time>
@@ -56,26 +50,23 @@ const EducationAndExperience: React.FC = () => {
       </li>
       <li className="mb-10 ms-6">
         <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-          <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-          </svg>
+          
         </span>
-        <h3 className="flex mb-1 font-semibold text-white">Data Analyst at ABC Inc</h3>
-        <time className="flex font-normal text-white">2020-2022</time>
+        <h3 className="flex mb-1 font-semibold text-white">Technical and Financial Advisor at EMInnov</h3>
+        <time className="flex font-normal text-white">2022-2023</time>
         <p className="flex text-base font-normal text-white">
-          Analyzed large datasets to provide actionable insights, created dashboards and reports, and worked on data visualization projects.
+        Contributed to the logistics and organization of events, participated in hackathons focusing on AI and electronics.
+
         </p>
       </li>
       <li className="ms-6">
         <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-          <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-          </svg>
+          
         </span>
-        <h3 className="flex mb-1 font-semibold text-white">Intern at DEF Ltd</h3>
-        <time className="flex font-normal text-white">2018-2019</time>
+        <h3 className="flex mb-1 font-semibold text-white"> Intern at KAZINOV</h3>
+        <time className="flex font-normal text-white">Juin-2023</time>
         <p className="flex text-base font-normal text-white">
-          Assisted in the development of data pipelines, performed data cleaning and preprocessing, and supported senior data scientists in various projects.
+        Participated in the renovation and digitization of a 60/22kV substation using PCCN technology, managing various interfaces related to substation operations.
         </p>
       </li>
     </ol>

@@ -4,18 +4,15 @@ interface ProjectProps {
   name: string;
   description: string;
   link: string;
-  img: { src: string; alt: string };
   category: JSX.Element;
 }
 
-const Project: React.FC<ProjectProps> = ({ name, description, link, img, category }) => {
+const Project: React.FC<ProjectProps> = ({ name, description, category }) => {
   return (
     <div className="border border-gray-300 p-4 rounded-md shadow-md bg-[#1A2B6B] text-white">
       <h2 className="text-xl font-semibold mb-2">{name}</h2>
       <p className="text-gray-300 mb-2">{description}</p>
-      <a href={link} className="block mb-2">
-        <img src={img.src} alt={img.alt} className="rounded-md" />
-      </a>
+      
       <div>{category}</div>
     </div>
   );
@@ -67,7 +64,6 @@ const Projects: React.FC = () => {
             name="Project 1"
             description="Automatisation du déploiement : Développer des scripts CI/CD pour automatiser le déploiement des applications sur des serveurs cloud."
             link="/"
-            img={{ src: '/assets/images/project-web-design.png', alt: 'Project logo' }}
             category={
               <>
                 <Tags color={ColorTags.FUCHSIA}>Jenkins</Tags>
@@ -81,7 +77,6 @@ const Projects: React.FC = () => {
             name="Project 2"
             description="Surveillance de l'infrastructure : Implémenter des outils de monitoring pour suivre la performance et la disponibilité des systèmes en temps réel."
             link="/"
-            img={{ src: '/assets/images/project-fire.png', alt: 'Project logo' }}
             category={
               <>
                 <Tags color={ColorTags.VIOLET}>Prometheus</Tags>
@@ -94,7 +89,6 @@ const Projects: React.FC = () => {
             name="Project 3"
             description="Gestion des configurations : Utiliser Ansible pour automatiser la configuration et la gestion des serveurs en environnement de production."
             link="/"
-            img={{ src: '', alt: 'Project Logo' }}
             category={
               <>
                 <Tags color={ColorTags.FUCHSIA}>Ansible</Tags>

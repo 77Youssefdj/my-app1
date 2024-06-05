@@ -8,15 +8,14 @@ const About: React.FC = () => {
       </div>
       <div className="section min-h-screen flex flex-col lg:flex-row justify-center items-center text-left bg-[#111F44] text-white px-8">
         <div className="lg:w-1/2 flex flex-col justify-center">
-          <p className="italic text-lg mr-32 ml-32 mb-4">« The world is one big data problem. »</p>
+          <p className="italic text-lg mr-32 ml-32 mb-4"></p>
           <p className="text-lg mr-32 ml-32 mb-4">
-            This quote encapsulates the reason and passion that has driven my journey into the realms of network, DevOps, and cloud computing. With a background in applied mathematics, I am currently pursuing a data science and engineering master's degree. I am dedicated to streamlining network operations, automating cloud infrastructure, and ensuring seamless integration of data workflows for insightful analysis.
           </p>
           <p className="text-lg mr-32 ml-32 mb-4">
-            My expertise spans Python, R, SQL, network automation, cloud orchestration, designing and implementing infrastructure as code with technologies like Terraform, Ansible, Kubernetes, and utilizing cloud platforms such as GCP, AWS, and Azure.
-          </p>
+          I am a second-year engineering student specializing in Networks and Telecommunications at the Ecole Mohammadia d'Ingénieurs in Rabat. My academic journey and professional experiences have equipped me with a robust skill set in IT, cybersecurity, and project management.
+develop this a bit more.</p>
           <p className="text-lg mr-32 ml-32">
-            If you are seeking a dedicated network DevOps engineer passionate about leveraging the power of cloud and automation, let's connect and explore how we can make a difference together, one problem at a time.
+          With a robust foundation in engineering, a diverse skill set, and a passion for innovation, I am driven to leverage my experiences to contribute to technological advancements and impactful projects. I invite you to connect with me on LinkedIn to learn more about my journey and explore potential collaborations.          
           </p>
         </div>
         <div className="lg:w-1/2 flex justify-center items-center mt-10 lg:mt-0">
