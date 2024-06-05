@@ -19,7 +19,7 @@ const Home: React.FC = () => {
           <p className="text-xl mb-2"></p>
           <p className="text-lg mb-4"></p>
           <Link to="/formulaire">
-          <button className="bg-[#61dafb] text-[#111F44] px-6 py-2 rounded-lg text-lg transition-transform transform hover:scale-105">Formulaire</button>
+          <button className="bg-[#61dafb] text-[#111F44] px-6 py-2 rounded-lg text-lg transition-transform transform hover:scale-105">Modifier</button>
           </Link>
           <p className="mt-6 text-lg text-[#61dafb] cursor-pointer" onClick={handleScrollDown}>Scroll down ↓</p>
         </div>
