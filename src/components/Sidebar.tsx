@@ -10,12 +10,6 @@ const Sidebar: React.FC = () => {
       <a href="https://www.github.com" className="text-2xl" target="_blank" rel="noopener noreferrer">
         <FaGithub />
       </a>
-      <a href="https://www.medium.com" className="text-2xl" target="_blank" rel="noopener noreferrer">
-        <FaMedium />
-      </a>
-      <a href="https://www.youtube.com" className="text-2xl" target="_blank" rel="noopener noreferrer">
-        <FaYoutube />
-      </a>
       <a href="mailto:email@example.com" className="text-2xl">
         <FaEnvelope />
       </a>
