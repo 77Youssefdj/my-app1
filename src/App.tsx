@@ -1,31 +1,21 @@
 import React from 'react';
-import { Element } from 'react-scroll';
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Skills from './components/Skills';
-import Education from './components/Education';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './index.css';
-import Sidebar from './components/Sidebar';
+import Cv from './screens/cv';
+import Formulaire from './screens/formulaire';
 
 function App() {
   return (
-    <div className="App bg-[#111F44] text-white">
-      <Header />
-      <Sidebar />
-      <Element name="home"><Home /></Element>
-      <Element name="about"><About /></Element>
-      <Element name="skills"><Skills /></Element>
-      <Element name="education"><Education /></Element>
-      <Element name="projects"><Projects /></Element>
-      <Element name="contact"><Contact /></Element>
-    </div>
+    <Router basename="/my-app1">
+      <div className="route">
+        <Routes>
+          <Route path="/" element={<Cv />} />
+          <Route path="/formulaire" element={<Formulaire />} />
+          <Route path="*" element={<Navigate to="/" />} /> {/* Handle unmatched routes */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
-
-
-
 
 export default App;

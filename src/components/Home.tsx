@@ -1,5 +1,7 @@
 import React from 'react';
 import idphoto from './images/your-photo.jpg';
+import { Link } from 'react-router-dom';
+
 
 const Home: React.FC = () => {
   const handleScrollDown = () => {
@@ -16,7 +18,9 @@ const Home: React.FC = () => {
           <h1 className="text-5xl mb-4 text-[#61dafb]">Hi, I'm Youssef</h1>
           <p className="text-xl mb-2"></p>
           <p className="text-lg mb-4"></p>
-          <button className="bg-[#61dafb] text-[#111F44] px-6 py-2 rounded-lg text-lg transition-transform transform hover:scale-105">Resume</button>
+          <Link to="/formulaire">
+          <button className="bg-[#61dafb] text-[#111F44] px-6 py-2 rounded-lg text-lg transition-transform transform hover:scale-105">Formulaire</button>
+          </Link>
           <p className="mt-6 text-lg text-[#61dafb] cursor-pointer" onClick={handleScrollDown}>Scroll down ↓</p>
         </div>
         <div className="photo flex-none ml-48">
